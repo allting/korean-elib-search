@@ -51,24 +51,27 @@ PHP 지원되는 웹서버가 없다면
 도서관 정보는 koelib.xml 에 XML로 기록되어 있습니다. 
 자주 사용하는 도서관이나 비공개 도서관중 가입된 곳이 있다면 관련 정보를 myelib.xml에 넣어서 편집하면 됩니다.
 
-구현설명
+소스코드
 ===================
 
+## 검색기
 * search.php: XML로 넘어오는 검색결과를 테이블로 만듬.
             현재는 페이지당 4개의 도서관을 검색 (조절가능)
 * query_*.php: 각 도서관을 검색 (parse 호출)
 * parse_*.php: 도서관 출력 페이지를 파싱하여 결과를 XML로 넘김
+* kolistnet.php: [국가자료공동목록시스템](http://http://www.nl.go.kr/kolisnet/)
 
-
+## 도서관
 * *_bookcube: 북큐브
 * *_kyobo*: 교보 계열
 * *_type3: (이름을 모르는 전자도서관 사업회사 1)
 * *_woori: 우리전자책
-* sen: [서울시 교육청 통합 전자도서관][http://e-lib.sen.go.kr]
-* golibrary: [경기도 사이버 도서관][http://golibrary.go.kr]
-* gmhlib: [광명시 중앙도서관][http://ebook.gmhlib.or.kr]
-* gangnam: [강남구][http://ebook.gangnam.go.kr]
+* sen: [서울시 교육청 통합 전자도서관](http://e-lib.sen.go.kr)
+* golibrary: [경기도 사이버 도서관](http://golibrary.go.kr)
+* gmhlib: [광명시 중앙도서관](http://ebook.gmhlib.or.kr)
+* gangnam: [강남구](http://ebook.gangnam.go.kr)
 
+## 구현설명
 
 * bookcube: XML로 검색결과가 넘어와 이를 XML로 다시 가공
 * kyobo*,woori,type3: HTML을 파싱하여 XML로 만듬
