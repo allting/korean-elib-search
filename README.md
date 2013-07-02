@@ -10,7 +10,7 @@
 전자책으로 출간된 서적의 수가 극히 제한적인 상황에서 그나마 있는 자료라도 효율적으로 써야하겠다는 생각에 이러한 통합검색 도구를 만들게 되었습니다.
 (안드로이드 경우 리브로피아라는 북큐브 통합검색 앱이 있기는 하더군요.)
 
-전자도서관 목록들은 [이북카페][http://cafe.naver.com/ebook/139134]에서 확인 바랍니다.
+전자도서관 목록들은 [이북카페](http://cafe.naver.com/ebook/139134)에서 확인 바랍니다.
 
 전자도서관 사업자들
 ===================
@@ -22,14 +22,14 @@
 다행히(?) 몇몇 공급업자들의 플랫폼이 널리 쓰이고 있습니다.
 도서관들의 구성을 살펴보면 2강 1중의 점유율을 보이고 있는걸 알수 있죠.
 
-우선 [다산지앤지][http://bookplayer.dasangng.co.kr]로 북큐브와 협력관계입니다(사실 대표가 같습니다).
+우선 [다산지앤지](http://bookplayer.dasangng.co.kr)로 북큐브와 협력관계입니다(사실 대표가 같습니다).
 관련 도서관들의 주소는 FxLibrary로 끝나는 경우가 대부분입니다.
 (platform: bookcube)
 
-두번째는 [디지털교보][http://digital.kyobobook.co.kr/digital/library/libraryMain.ink]입니다. 교보말고도 다른 포맷의 도서관 구축에도 쓰이고 있습니다.
+두번째는 [디지털교보](http://digital.kyobobook.co.kr/digital/library/libraryMain.ink)입니다. 교보말고도 다른 포맷의 도서관 구축에도 쓰이고 있습니다.
 (platform: kyobo)
 
-세번째는 [우리전자책][http://wooriebook.com]로 에피루스와 협력관계입니다.
+세번째는 [우리전자책](http://wooriebook.com)로 에피루스와 협력관계입니다.
 yes24의 일부 서점이 사용하고 있습니다.
 (platform: woori)
 
@@ -42,9 +42,9 @@ PHP가 지원되는 웹서버의 문서디렉토리에 압축파일을 디렉토
 웹브라우저로 디렉토리의 index.html 을 열면 됩니다.
 
 PHP 지원되는 웹서버가 없다면 
-* XAMPP (http://www.apachefriends.org/en/xampp.html)
-* apmsetup (http://www.apmsetup.com)
-* autoset (http://www.autoset.net)
+* [XAMPP](http://www.apachefriends.org/en/xampp.html)
+* [apmsetup](http://www.apmsetup.com)
+* [autoset](http://www.autoset.net)
 * QuickPHP
 등을 사용하시면 쉽게 서버구축이 가능합니다.
 
@@ -59,6 +59,7 @@ PHP 지원되는 웹서버가 없다면
 * query_*.php: 각 도서관을 검색 (parse 호출)
 * parse_*.php: 도서관 출력 페이지를 파싱하여 결과를 XML로 넘김
 
+
 * *_bookcube: 북큐브
 * *_kyobo*: 교보 계열
 * *_type3: (이름을 모르는 전자도서관 사업회사 1)
@@ -67,6 +68,7 @@ PHP 지원되는 웹서버가 없다면
 * golibrary: [경기도 사이버 도서관][http://golibrary.go.kr]
 * gmhlib: [광명시 중앙도서관][http://ebook.gmhlib.or.kr]
 * gangnam: [강남구][http://ebook.gangnam.go.kr]
+
 
 * bookcube: XML로 검색결과가 넘어와 이를 XML로 다시 가공
 * kyobo*,woori,type3: HTML을 파싱하여 XML로 만듬
@@ -82,5 +84,5 @@ PHP 지원되는 웹서버가 없다면
 배포 및 수정
 ===================
 
-이 코드들은 GPLv3 라이센스로 배포됩니다. 
+이 코드들은 [GPLv3 라이센스](http://www.gnu.org/licenses/gpl-3.0.html)로 배포됩니다. 
 즉 사용이나 배포를 맘대로 하시고 단 코드가 수정이 되었을 때는 "꼭" 공개를 해야 합니다.
